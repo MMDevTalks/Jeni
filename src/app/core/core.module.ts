@@ -8,7 +8,7 @@ import { MoviePosterComponent } from './movie-poster/movie-poster.component';
     CommonModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent, MoviePosterComponent
   ],
   declarations: [HeaderComponent, MoviePosterComponent]
 })
