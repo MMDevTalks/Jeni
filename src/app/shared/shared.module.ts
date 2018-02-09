@@ -11,6 +11,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
   imports: [
     CommonModule
   ],
-  declarations: [ButtonComponent, IconComponent, MoviePosterComponent, SvgDefinitionsComponent, SpinnerComponent]
+  declarations: [ButtonComponent, IconComponent, MoviePosterComponent, SvgDefinitionsComponent, SpinnerComponent],
+  exports: [ButtonComponent, IconComponent, MoviePosterComponent, SvgDefinitionsComponent, SpinnerComponent]
 })
 export class SharedModule { }
